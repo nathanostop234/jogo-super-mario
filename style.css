@@ -34,5 +34,14 @@
 .nuvem {
     position: absolute;
     width: 550px;
-    animation: clounds-animation 20s infinite linear
+    animation: clounds-animation 20s infinite linear;
+}
+
+@keyframes pipe-animation {
+    from{
+        right: -80px;
+    }
+    to{
+        right: 100%;
+    }
 }
