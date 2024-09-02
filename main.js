@@ -26,7 +26,7 @@ if(pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
     mario.style.marginLeft = "50px";
 
     clearInterval(loop);
-
+  }
 },10);
 
 document.addEventListener("keydown", jump);
