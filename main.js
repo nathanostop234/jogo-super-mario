@@ -5,7 +5,7 @@ const gameOverScreen = document.querySelector(".game-over");
 
 let gameStarted = false;
 
-const gameStarted = () => {
+const startGame = () => {
 gameStarted = true;
 
 pipe.style.animation = "pipe-animation 1.5s infinite linear";
