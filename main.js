@@ -50,7 +50,16 @@ if(pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
 
     gameOverSound.play();
     clearInterval(loop);
+
+    gameOverScreen.style.display = "flex"
   }
 },10);
 
+
 document.addEventListener("keydown", jump);
+
+const restartGame = () => {
+
+
+    window.location.reload();
+}
