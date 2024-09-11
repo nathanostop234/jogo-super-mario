@@ -10,7 +10,7 @@ let gameStarted = false;
 
 const startGame = () => {
 gameStarted = true;
-audioStart.play ()
+audioStart.play();
 
 pipe.style.animation = "pipe-animation 1.5s infinite linear";
 
@@ -46,8 +46,9 @@ if(pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
     mario.src = "game-over.png";
     mario.style.width = "75px";
     mario.style.marginLeft = "50px";
+    audioStart.pause();
 
-    
+    gameOverSound.play();
     clearInterval(loop);
   }
 },10);
