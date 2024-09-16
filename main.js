@@ -1,5 +1,6 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
+const nuvem = document.querySelector(".nuvem");
 const startButton = document.querySelector(".start");
 const gameOverScreen = document.querySelector(".game-over");
 
@@ -49,8 +50,8 @@ if(pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
     audioStart.pause();
 
     gameOverSound.play();
-    clearInterval(loop);
 
+    clearInterval(loop);
     gameOverScreen.style.display = "flex"
   }
 },10);
