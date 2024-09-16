@@ -1,8 +1,8 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+    box-sizing:border-box;
+    }
 
 .game-board {
     width: 100%;
@@ -11,7 +11,7 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(#87ceeb, #e0f6ff);
+    background: linear-gradient(#87ceeb,#e0f6ff );
 }
 
 .pipe, .mario, .nuvem {
@@ -20,26 +20,26 @@
 }
 
 .pipe {
-    position: absolute;
-    bottom: 0;
-    width: 80px;
-    animation: pipe-animation 1.5s infinite linear;
+ position: absolute;
+ bottom: 0;
+ width: 80px;
+ animation: pipe-animation 1.5s infinite linear;
 }
 
 .mario {
-    width: 150px;
-    position: absolute;
-    bottom:0;
+  width: 150px;
+  position: absolute;
+  bottom: 0;
 }
 
 .jump {
-    animation: jump 500ms ease-out;
+ animation: jump 500ms ease-out;
 }
 
 .nuvem {
-    position: absolute;
-    width: 550px;
-    animation: clouds-animation 20s infinite linear;
+  position: absolute;
+  width: 550px;
+  animation: clouds-animation 20s infinite linear;
 }
 
 button {
@@ -63,7 +63,7 @@ button:hover {
 }
 
 button.start {
-    display: block;
+display: block;
 }
 
 .game-over {
@@ -76,7 +76,7 @@ button.start {
     flex-direction: column;
     position: fixed;
     top: 0;
-    let: 0;
+    left: 0;
 }
 
 .game-over h1 {
@@ -84,15 +84,17 @@ button.start {
     color: red;
     text-align: center;
     margin-top: 15rem;
+}
 
-@keyframes pipe-animation {
+@keyframes pipe-animation{
     from {
         right: -80px;
     }
+    
     to {
         right: 100%;
     }
-}
+}  
 
 @keyframes jump {
     0% {
