@@ -4,7 +4,7 @@ const nuvem = document.querySelector(".nuvem");
 const startButton = document.querySelector(".start");
 const gameOverScreen = document.querySelector(".game-over");
 
-audioStart = new Audio("./sound/audio_theme.mp3");
+audioStart = new Audio("mao zedong propaganda music Red Sun in the Sky.mp3");
 const gameOverSound = new Audio("./sound/audio_gameover.mp3");
 
 let gameStarted = false;
