@@ -7,7 +7,7 @@ const scoreElement = document.querySelector(".score");
 
 
 audioStart = new Audio("mao zedong propaganda music Red Sun in the Sky.mp3");
-const gameOverSound = new Audio("./sound/audio_gameover.mp3");
+const gameOverSound = new Audio("Gong Sound Effect.mp3");
 
 let gameStarted = false;
 let score = 0;
