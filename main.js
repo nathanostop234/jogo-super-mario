@@ -53,7 +53,7 @@ const updateScore = () => {
             mario.style.animation = "none";
             mario.style.left = `${marioPosition}px`;
 
-            mario.src = "game-over.png";
+            mario.src = "explosão.png";
             mario.style.width = "75px";
             mario.style.marginLeft = "50px";
             audioStart.pause();
